@@ -1,0 +1,24 @@
+
+ <div class="row">
+       <div class="col-md-12 bg-dark w-50 ">
+              <a class="navbar-brand logo p-4 " routerLink="/projects" >
+                 Gallery</a>
+        </div>    
+  </div> 
+          
+<div class="row">
+    <div class="col-md-12">
+        <div [ngStyle]="{'background-image': 'url('+ image.url +')' }" class="image-container">
+
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 caption-row">
+        <span id="caption ">{{image.Caption}}</span>
+
+    </div>
+</div>
+
+

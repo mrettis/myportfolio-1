@@ -1,0 +1,60 @@
+
+ /* .showcase{
+    background-color: red;
+} */
+
+.leftside, .rightside{
+    height: 50vh;
+    width: 100%;
+
+}
+
+@media screen and (min-width: 768px){
+    .leftside, .rightside{
+        height: 100vh;   
+    }
+}
+
+
+.leftside{
+    background-color: #2e3192;
+    opacity: 0.9;
+}
+
+.home{
+    background-color: black;
+    background-image: url("/assets/images/homeBackground2.jpg");  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;     
+}
+
+
+#rightBox{
+    min-height: 400px;
+    padding:  150px 0 100px 0;
+    background-color: #2e3192;
+    opacity: 0.9;
+}
+
+#rightBox .fa{
+
+  color: #fff;
+  border: 4px solid #f4f4f4;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;  
+
+}
+
+ .tech #leftBox{
+  
+    background-image: url("/assets/images/whiteBoard.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+    
+
+}
+

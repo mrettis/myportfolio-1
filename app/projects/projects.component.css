@@ -1,0 +1,30 @@
+
+#workSection{
+    background-color:#fff;
+    
+}
+
+.window{
+    background-color: #2e3192;
+}
+
+.box{
+    background-color: #2e3192;
+    min-height: 300px;
+    width: 100%;
+}
+
+#myProjects{
+    background-color: #fff;
+    padding: 30px 0 80px 0;
+}
+
+#projectBox{
+
+    background-color: #2e3192;
+    padding-bottom: 30px;
+}
+
+#box1{
+    background-color: #070825;
+}

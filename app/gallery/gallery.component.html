@@ -1,0 +1,25 @@
+<div  class="container"  >      
+        <div class="row p-5 m-5" >
+            <div *ngFor="let image of visibleImages" id ="thumnailList" class="col-lg-4 bg-warning">
+            
+          <div class="m-3">
+
+                <a [routerLink]="['/image', image.id]">
+
+                <img  src="{{image.url2}}" class="tn" width="260" height="220">
+
+              </a>
+          </div>
+               <a href="#!" class="btn-primary d-flex column ml-3">
+                <i class=" fas fa-eye p-2"> {{image.Caption}}</i>
+              </a>
+              
+              <a href="#!" class="btn-dark d-flex column ml-3 ">
+                    <i class="fab fa-github p-2 " aria-hidden="true" > Github </i>
+                  </a>
+                               
+            </div>
+        </div>
+      </div>
+    
+ 
